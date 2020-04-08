@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>APPetite</title>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat:wght@100;400;900&family=Righteous&display=swap" rel="stylesheet">
+  <!-- CSS and Bootstrap links -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font awesome script -->
+  <script src="https://kit.fontawesome.com/1c519eef31.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="icons/favicon.ico">
+</head>
+
+<body>
+
+  <section id="goToHome" class="title-section">
+
+    <!-- Navigation Bar -->
+    <div class="container-fluid modify-navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="">APPetite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#goToHome">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#goToFeatures">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#goToPricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#goToDownload">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#goToContact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Title -->
+    <div class="container-fluid modify-title-container">
+
+      <div class="row">
+
+        <div class="col-lg-6 title-heading">
+          <h1>The ultimate nutrition and <br> fitness assistant</h1>
+          <a href="https://www.apple.com/in/ios/app-store/" target="_blank"><img class="download-button-home" src="icons/appStore.png" alt="Download on the App Store"></a>
+          <a href="https://play.google.com/store?hl=en" target="_blank"><img class="download-button-home" src="icons/googlePlay.png" alt="GET IT ON Google Play"></a>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="ipad-iphone" src="images/ipad-vert.png" alt="ipad-iphone-mockup">
+        </div>
+
+      </div>
+
+  </section>
+
+
+  <!-- Features -->
+  <section id="goToFeatures" class="features-section">
+
+    <div class="features-box">
+      <h2>Features</h2>
+      <p>Trying to lose weight, lower your BMI, or invest in your overall health? We give you the right tools to hit your goals.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 features-box">
+        <img class="features-icons" src="icons/diet.png" alt="healthy-food">
+        <h3>Healthy Eating, Simplified</h3>
+        <p>Use nutrition goals and custom trackers to improve your food choices and reach your weight goal.</p>
+      </div>
+      <div class="col-lg-4 features-box">
+        <img class="features-icons" src="icons/notebook.png" alt="notebook">
+        <h3>Learn. Track. Improve.</h3>
+        <p>Keeping a food diary helps you track your habits and acts as your very own personal virtual coach.</p>
+      </div>
+      <div class="col-lg-4 features-box">
+        <img class="features-icons" src="icons/running.png" alt="running-shoes">
+        <h3>Stay Motivated</h3>
+        <p>Join the World’s Largest Fitness Community for advice, tips, support and feedback 24/7.</p>
+      </div>
+    </div>
+
+    <h3 class="connect-with">Connect With Over 50 Apps & Devices</h3>
+    <img class="apps-devices" src="images/logo-garmin.png" alt="garmin-logo">
+    <img class="apps-devices" src="images/logo-apple-watch.png" alt="apple-watch-logo">
+    <img class="apps-devices" src="images/logo-samsung-health.png" alt="samsung-health-logo">
+    <img class="apps-devices" src="images/logo-fitbit.png" alt="fitbit-logo">
+    <img class="apps-devices" src="images/logo-google-fit.png" alt="google-fit-logo">
+
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials-section">
+
+    <div class="success-story">
+      <h2>Success Stories</h2>
+      <p>When you reach your goals, our whole community celebrates with you. Find out what people are saying.</p>
+    </div>
+
+    <div id="control-testimonial-carousel" class="carousel slide" data-ride="false" data-interval="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="testimonials-box">
+            <img class="testimonial-images" src="images/member-1.jpg" alt="member 1">
+            <h3>APPetite gave me a wake up call to the way I was eating and made things clear what I needed to change.</h3>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <em> - Simi, Kolkata</em>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="testimonials-box">
+            <img class="testimonial-images" src="images/member-2.jpg" alt="member 2">
+            <h3>I don't often pay for apps, and when I do, I expect a lot from them. This one blew my expectations out of the water!</h3>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <em> - Subir, Orissa</em>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="testimonials-box">
+            <img class="testimonial-images" src="images/member-3.jpg" alt="member 3">
+            <h3>This is everything I ever wanted in a diet app. Clean, beautiful and responsive UI and just a pleasure to use!</h3>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <em> - Mitul, Kolkata</em>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#control-testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#control-testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Pricing -->
+  <section id="goToPricing" class="pricing-section">
+
+    <div class="pricing-text">
+      <h2>A Plan for Everone!</h2>
+      <p>Try APPetite for free or achieve more with Pro.
+        Get the best experience with an APPetite Plus subscription.</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>APPetite <strong>Basic</strong></h3>
+          </div>
+          <div class="card-header">
+            <h2>$0 <small class="text-muted">/ mo</small></h2>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>Food and Exercise Tracking</li>
+              <li>Diet Planning and Weight Loss</li>
+              <li class="strike-through">Linking Apps and Devices</li>
+              <li class="strike-through">Customer Support</li>
+              <li class="strike-through">Virtual Coach and Analysis</li>
+              <li class="strike-through">Custom Trackers and Feedback</li>
+              <li class="strike-through">No Advertisements</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-info">Sign Up for Free</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>APPetite <strong>Pro</strong></h3>
+          </div>
+          <div class="card-header">
+            <h2>$9 <small class="text-muted">/ mo</small></h2>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>Food and Exercise Tracking</li>
+              <li>Diet Planning and Weight Loss</li>
+              <li>Linking Apps and Devices</li>
+              <li>Customer Support</li>
+              <li class="strike-through">Virtual Coach and Analysis</li>
+              <li class="strike-through">Custom Trackers and Feedback</li>
+              <li class="strike-through">No Advertisements</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-info">Go Pro</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>APPetite <strong>Plus</strong></h3>
+          </div>
+          <div class="card-header">
+            <h2>$15 <small class="text-muted">/ mo</small></h2>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>Food and Exercise Tracking</li>
+              <li>Diet Planning and Weight Loss</li>
+              <li>Linking Apps and Devices</li>
+              <li>Customer Support</li>
+              <li>Virtual Coach and Analysis</li>
+              <li>Custom Trackers and Feedback</li>
+              <li>No Advertisements</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-info">Get Plus</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Call to Action-->
+  <section id="goToDownload" class="downloads-section">
+
+    <h2>Being Healthy Has Never Been Easier. <br> Start Your Journey Today.</h2>
+    <a href="https://www.apple.com/in/ios/app-store/" target="_blank"><img class="download-button" src="icons/appStore.png" alt="Download on the App Store"></a>
+    <a href="https://play.google.com/store?hl=en" target="_blank"><img class="download-button" src="icons/googlePlay.png" alt="GET IT ON Google Play"></a>
+    <!-- Footer -->
+
+    <div class="row">
+      <div class="col-lg-3">
+        <ul class="list-unstyled site-links">
+          <li><a href="dummy-contacts.html" target="_blank">API</a></li>
+          <li><a href="dummy-contacts.html" target="_blank">Career</a></li>
+          <li><a href="dummy-contacts.html" target="_blank">Contact Us</a></li>
+          <li><a href="dummy-contacts.html" target="_blank">Community Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6 social-links">
+        <p>Follow Us</p>
+        <a class="social-icons" href="dummy-media.html" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+        <a class="social-icons" href="dummy-media.html" target="_blank"><img src="icons/instagram.png" alt="instagram"></a>
+        <a class="social-icons" href="dummy-media.html" target="_blank"><img src="icons/youtube.png" alt="youtube"></a>
+        <a class="social-icons" href="dummy-media.html" target="_blank"><img src="icons/twitter.png" alt="twitter"></a>
+      </div>
+      <div class="col-lg-3">
+        <ul class="list-unstyled faq">
+          <li><a href="dummy-footers.html" target="_blank">FAQ</a></li>
+          <li><a href="dummy-footers.html" target="_blank">About Us</a></li>
+          <li><a href="dummy-footers.html" target="_blank">Privacy Policy</a></li>
+          <li><a href="dummy-footers.html" target="_blank">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>© Copyright APPetite LLC 2020. All Rights Reserved.</p>
+    </footer>
+
+  </section>
+
+</body>
+
+</html>

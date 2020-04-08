@@ -1,0 +1,180 @@
+body {
+  background-color: #deecfc;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 80px;
+  background-image: url("../images/body-image.jpg");
+  background-size: contain;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Days One", sans-serif;
+  font-size: 4.5vw;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #fff;
+}
+
+/* Title section */
+.title-section {
+  background-color: #003f5c;
+  background-image: url("../images/home-image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: left;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-top: 0.25rem;
+  margin: 0 2% 2%;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: "Days One", sans-serif;
+  font-size: 2rem;
+}
+
+.modify-title-container {
+  padding: 2% 6% 0;
+}
+
+.title-heading {
+  -webkit-text-stroke: 0.1vw #000000;
+  padding-top: 1%;
+}
+
+.download-button-home {
+  margin: 3% 3% 3% 0;
+  max-width: 15vw;
+}
+
+.download-button {
+  margin: 3% 3% 3% 0;
+}
+
+.ipad-iphone {
+  max-width: 40vw;
+}
+/* Features section */
+.features-section {
+  background-color: #deecfc;
+  padding: 5% 10%;
+}
+
+.features-box {
+  padding: 0 2%;
+}
+
+.features-icons {
+  width: 25%;
+  padding: 2rem 0;
+}
+
+.connect-with {
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.apps-devices {
+  width: 10%;
+  margin: 0 3%;
+}
+
+/* Testimonials section */
+.testimonials-section {
+  background-color: #003f5c;
+  background-image: url("../images/wood.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 5% 10%;
+}
+
+.success-story {
+  margin-bottom: 8%;
+}
+
+.testimonials-box {
+  padding: 0 20%;
+}
+
+.testimonial-images {
+  float: left;
+  width: 25%;
+  border-radius: 100%;
+  margin: 0 10%;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Pricing section */
+.pricing-section {
+  background-color: #deecfc;
+  padding: 5% 10%;
+}
+
+.pricing-text {
+  margin-bottom: 5%;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+/* Downloads section */
+.downloads-section {
+  background-color: #003f5c;
+  background-image: url("../images/wood.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 3% 10% 1%;
+}
+
+/* Footer section */
+.site-links {
+  text-align: left;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-icons {
+  margin: 0 5%;
+}
+
+.faq {
+  text-align: right;
+}
+
+.footer {
+  font-size: 0.8rem;
+}
+
+/* linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8)),  */
+
+@media (max-width: 990px){
+  .modify-title-container
+  {
+    text-align: center;
+  }
+}
