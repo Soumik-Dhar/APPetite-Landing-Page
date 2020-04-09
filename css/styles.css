@@ -2,7 +2,7 @@ body {
   background-color: #deecfc;
   font-family: "Montserrat", sans-serif;
   padding-top: 80px;
-  background-image: url("../images/body-image.jpg");
+  background-image: url("../images/wood.jpg");
   background-size: contain;
   text-align: center;
 }
@@ -30,7 +30,7 @@ a {
 /* Title section */
 .title-section {
   background-color: #003f5c;
-  background-image: url("../images/home-image.png");
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)), url("../images/home-image.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -57,25 +57,25 @@ a {
 
 .title-heading {
   -webkit-text-stroke: 0.1vw #000000;
-  padding-top: 1%;
-}
-
-.download-button-home {
-  margin: 3% 3% 3% 0;
-  max-width: 15vw;
+  padding: 1% 0 3%;
 }
 
 .download-button {
   margin: 3% 3% 3% 0;
+  max-width: 20vw;
 }
 
 .ipad-iphone {
-  max-width: 40vw;
+  max-width: 37vw;
+  position: absolute;
+  z-index: 1;
 }
+
 /* Features section */
 .features-section {
   background-color: #deecfc;
-  padding: 5% 10%;
+  padding: 8% 10% 5%;
+  position: relative;
 }
 
 .features-box {
@@ -170,11 +170,21 @@ a {
   font-size: 0.8rem;
 }
 
-/* linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8)),  */
-
-@media (max-width: 990px){
-  .modify-title-container
-  {
+@media (max-width: 770px){
+  h1{
+    font-size: 10vw;
+  }
+  .modify-title-container{
     text-align: center;
+  }
+  .download-button{
+      max-width: 30vw;
+    }
+  .ipad-iphone{
+    position: static;
+    max-width: 60vw;
+  }
+  .features-section{
+    position: static;
   }
 }
