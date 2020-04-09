@@ -170,7 +170,7 @@ a {
   font-size: 0.8rem;
 }
 
-@media (max-width: 770px){
+@media (max-width: 600px){
   h1{
     font-size: 10vw;
   }
