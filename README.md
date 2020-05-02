@@ -9,4 +9,4 @@ APPetite is a dummy landing page for a nutrition and fitness assistant applicati
 * Cards
 * Carousels
 ---
-Check out the website here -> [Appetite](https://soumik-dhar.github.io/APPetite-Landing-Page/).
+Check out the website here -> [APPetite](https://soumik-dhar.github.io/APPetite-Landing-Page/).
